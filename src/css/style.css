@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+body, button{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-perguntas{
+    width: 655px;
+    height: auto;
+    min-height: 347px;
+    padding: 40px 50px;
+    border-radius: 25px;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: flex-start;
+    -webkit-box-shadow: 0px 7px 25px -3px rgba(128,128,128,1);
+    -moz-box-shadow: 0px 7px 25px -3px rgba(128,128,128,1);
+    box-shadow: 0px 7px 25px -3px rgba(128,128,128,1);
+}
+
+
+.container-perguntas .homem-vr{
+    width: 278px;
+    height: 293px;
+    position: absolute;
+    left: -90px;
+    bottom: 21px;
+}
+
+
+.container-perguntas .perguntas-frequentes{
+    width: 390px;
+}
+
+
+.container-perguntas .perguntas-frequentes h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+
+.container-perguntas .perguntas-frequentes .perguntas{
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+
+
+.container-perguntas .perguntas-frequentes .perguntas:last-child{
+    border-bottom: none;
+}
+
+
+.container-perguntas .perguntas-frequentes .perguntas .pergunta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.2s ease-in-out;
+}
+
+
+.container-perguntas .perguntas-frequentes .perguntas .pergunta:hover{
+    color: #f14624;
+}
+
+
+.container-perguntas .perguntas-frequentes .perguntas h3{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+.container-perguntas .perguntas-frequentes .perguntas .pergunta .seta{
+    width: 15px;
+    height: 8.6px;
+}
+
+
+.container-perguntas .perguntas-frequentes .perguntas .pergunta .seta-fechada{
+    background: url(../images/seta.png);
+}
+
+
+.container-perguntas .perguntas-frequentes .perguntas .pergunta .seta-aberta{
+    background: url(../images/seta-aberta.png);
+}
+
+
+.container-perguntas .perguntas-frequentes .respostas .texto-resposta{
+    font-weight: 300;
+    margin-top: 10px;
+    width: 347px;
+    font-size: 15px;
+}
+
+
+.esconder{
+    display: none;
+}
